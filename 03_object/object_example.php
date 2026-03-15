@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace OOP\Lesson03Object;
+
 /*
  Step 1: Class = blueprint.
  The blueprint says every Car object has color, model, and can start.

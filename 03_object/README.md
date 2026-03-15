@@ -36,6 +36,11 @@ $myCar->start();
 php OOP/03_object/object_example.php
 ```
 
+## VS Code note (why the warning happened)
+If another lesson file also has a class named `Car`, Intelephense can confuse the two class definitions.
+This lesson uses its own namespace in `object_example.php` to keep examples independent and remove the
+"Expected 2 arguments. Found 0" warning on `new Car()`.
+
 ## Expected understanding
 - Same class, many objects.
 - Methods are shared behavior from class.
